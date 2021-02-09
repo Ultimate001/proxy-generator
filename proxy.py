@@ -14,7 +14,7 @@ from PORT.india import *
 from PORT.indonesia import *
 from PORT.singapore import *
 from PORT.thailand import *
-from PORT.ukraine import *
+from PORT.kenya import *
 from PORT.unitedkingdom import *
 from PORT.unitedstates import *
 import requests,os,re
@@ -49,7 +49,7 @@ def main():
 	print "    [11] Indonesia"
 	print "    [12] Singapore"
 	print "    [13] Thailand"
-	print "    [14] Ukraine"
+	print "    [14] Kenya"
 	print "    [15] United Kingdom"
 	print "    [16] United States"
 	print "    [99] Keluar"
@@ -82,7 +82,7 @@ def main():
 	elif select == 13:
 		thailand()
 	elif select == 14:
-		ukraine()
+		kenya()
 	elif select == 15:
 		unitedkingdom()
 	elif select == 16:
